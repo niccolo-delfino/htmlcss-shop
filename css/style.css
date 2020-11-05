@@ -28,3 +28,11 @@
 .product:hover .heart{
   display: block;
 }
+
+.product:hover{
+  cursor: pointer;
+}
+
+.second-row{
+  margin-top: 30px;
+}
