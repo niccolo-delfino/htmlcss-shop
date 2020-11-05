@@ -14,8 +14,13 @@
 .heart{
   width: 100%;
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   text-align: center;
   font-size: 25px;
-  color: red
+  color: red;
+  display: none
+}
+
+.product:hover .heart{
+  display: block;
 }
