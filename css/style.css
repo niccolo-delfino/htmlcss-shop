@@ -11,6 +11,10 @@
   background-color: green;
 }
 
+.product:nth-child(even) .discount{
+  background-color: red
+}
+
 .heart{
   width: 100%;
   position: absolute;
