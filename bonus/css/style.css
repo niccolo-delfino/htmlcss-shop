@@ -1,0 +1,62 @@
+body{
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  background-color: lightgrey;
+}
+
+.product{
+  height: 250px;
+  width: 200px;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.ipad{
+  background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-mini-select-201911_GEO_IT_FMT_WHH?wid=2000&amp;hei=2000&amp;fmt=jpeg&amp;qlt=80&amp;op_usm=0.5,0.5&amp;.v=1574902958542);
+}
+
+.iphone{
+  background-image: url(https://static1.unieuro.it/medias/sys_master/root/h39/h8e/31552992378910/-api-rest-00ed29448a7522f610cac04d7b9ea7e0-assets-f98f388407ad49eff258011f9b43296b-preview-sgmConversionBaseFormat-sgmProductFormat.jpg);
+}
+
+.beats{
+  background-image: url(https://www.importshopping.com/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/t/e/techinthebasket_beats_studio3_wireless_headphone_sky_blue-1.jpg);
+}
+
+.discount{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+}
+
+.product:nth-child(even) .discount{
+  background-color: red
+}
+
+.heart{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  font-size: 25px;
+  color: red;
+  display: none
+}
+
+.product:hover .heart{
+  display: block;
+}
+
+.product:hover{
+  cursor: pointer;
+}
+
+.second-row{
+  margin-top: 30px;
+}
